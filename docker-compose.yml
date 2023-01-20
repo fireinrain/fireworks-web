@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  fireworks-web:
+    container_name: fireworks-web
+    ports:
+      - "12345:80"
+    image: 'liuzy/fireworks-web'
