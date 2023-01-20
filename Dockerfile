@@ -5,4 +5,4 @@ FROM nginx:alpine-slim
 COPY . /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
 
-ENTRYPOINT ["nginx", "-g", "daemon off"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
